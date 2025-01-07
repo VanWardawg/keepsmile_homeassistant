@@ -1,7 +1,7 @@
-from cheshire.compiler.compiler import StateCompiler
-from cheshire.compiler.state import LightState
-from cheshire.generic.command import *
-from cheshire.generic.effect import Effect
+from ....compiler.compiler import StateCompiler
+from ....compiler.state import LightState
+from ....generic.command import *
+from ....generic.effect import Effect
 from .constants import *
 from .platform_commands import *
 

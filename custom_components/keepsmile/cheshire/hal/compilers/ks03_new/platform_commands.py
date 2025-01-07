@@ -1,5 +1,5 @@
 from .constants import KS03NewScene
-from cheshire.generic.platform_command import PlatformCommand
+from ....generic.platform_command import PlatformCommand
 from struct import Struct
 
 # TODO: Not all of these are KS03New

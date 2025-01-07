@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from .cheshire.generic.platform_command import PlatformCommand
+from ..generic.platform_command import PlatformCommand
 
 
 class Transmitter(ABC):

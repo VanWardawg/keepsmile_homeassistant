@@ -1,5 +1,5 @@
 from .constants import KS03OldScene
-from cheshire.generic.platform_command import PlatformCommand
+from ....generic.platform_command import PlatformCommand
 from struct import Struct
 
 class KS03OldSwitchCommand(PlatformCommand):

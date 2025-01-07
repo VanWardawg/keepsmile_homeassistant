@@ -4,13 +4,13 @@ from typing import Callable
 
 from bleak import BleakClient
 from bleak.backends.device import BLEDevice
-from .cheshire.communication.bluetooth import BLETransmitter, GattProfile
-from .cheshire.communication.transmitter import Transmitter
-from .cheshire.compiler.compiler import StateCompiler
-from .cheshire.compiler.state import LightState
-from .cheshire.generic.command import *
+from ..communication.bluetooth import BLETransmitter, GattProfile
+from ..communication.transmitter import Transmitter
+from ..compiler.compiler import StateCompiler
+from ..compiler.state import LightState
+from ..generic.command import *
 
-from .cheshire.generic.command import Command
+from ..generic.command import Command
 from .compilers.ks03_old.compiler import KS03OldCompiler
 from .compilers.ks03_new.compiler import KS03NewCompiler
 
