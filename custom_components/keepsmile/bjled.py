@@ -13,11 +13,11 @@ from bleak_retry_connector import (
     #ble_device_has_changed,
     establish_connection,
 )
-from cheshire.compiler.compiler import StateCompiler
-from cheshire.compiler.state import LightState
-from cheshire.generic.command import *
-from cheshire.hal.devices import device_profile_from_ble_device
-from cheshire.communication.transmitter import Transmitter
+from keepsmile-api.cheshire.compiler.compiler import StateCompiler
+from keepsmile-api.cheshire.compiler.state import LightState
+from keepsmile-api.cheshire.generic.command import *
+from keepsmile-api.cheshire.hal.devices import device_profile_from_ble_device
+from keepsmile-api.cheshire.communication.transmitter import Transmitter
 from typing import Any, TypeVar, cast, Tuple
 from collections.abc import Callable
 #import traceback
