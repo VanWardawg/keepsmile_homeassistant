@@ -1,3 +1,0 @@
-[submodule "custom_components/keepsmile/keepsmile-api"]
-	path = custom_components/keepsmile/keepsmile-api
-	url = https://github.com/andrewcincotta/keepsmile-api
